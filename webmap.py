@@ -27,4 +27,4 @@ for lat, lon, elevation in zip(Lat, Lon, Elevation):
 	folium.CircleMarker(location=[lat, lon], radius=9, popup=str(elevation) + " m", fill_color=switch_color(elevation), color="gray", fill_opacity=0.9).add_to(marker_cluster)
 
 #Save the map
-map.save("map1.html")
+map.save("us-volcanoes-map.html")
