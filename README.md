@@ -1,2 +1,4 @@
 # Web-Map
-Wed Map built using Folium
+Wed Maps built using Folium:
+  - Visualizing volcanoes (and their elevation) in US using clusters.
+  - Visualizing unemployment rates of all US States using choropleth map.
